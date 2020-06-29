@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <item
-        android:id = "@+id/drawLine"
-        android:title = "선 그리기"
-        />
-    <item
-        android:id = "@+id/drawCircle"
-        android:title = "원 그리기"
-        />
-    <item
-        android:id = "@+id/drawRectangle"
-        android:title = "사각형 그리기"
-        />
+<item
+    android:id = "@+id/drawLine"
+    android:title = "선 그리기"
+    />
+<item
+    android:id = "@+id/drawCircle"
+    android:title = "원 그리기"
+    />
+<item
+    android:id = "@+id/drawRectangle"
+    android:title = "사각형 그리기"
+    />
 </menu>
