@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id = "@+id/selectDelete"
+        android:title = "선택 삭제"
+        />
+    <item
+        android:id = "@+id/allDelete"
+        android:title = "전부 지우기"
+        />
+
+</menu>

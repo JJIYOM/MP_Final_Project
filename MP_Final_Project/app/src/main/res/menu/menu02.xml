@@ -5,4 +5,25 @@
         android:id = "@+id/printPicture"
         android:title = "비트맵 출력"
         />
+    <item
+        android:id = "@+id/changePicture"
+        android:title = "비트맵 변환 >>">
+        <menu>
+            <item
+                android:id = "@+id/rotate"
+                android:title = "회전"/>
+            <item
+                android:id = "@+id/scaleUp"
+                android:title = "확대"/>
+            <item
+                android:id = "@+id/scaleDown"
+                android:title = "축소"/>
+            <item
+                android:id = "@+id/translate"
+                android:title = "이동"/>
+            <item
+                android:id = "@+id/skew"
+                android:title = "기울이기"/>
+        </menu>
+        </item>
 </menu>

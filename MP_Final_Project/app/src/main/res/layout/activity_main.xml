@@ -3,14 +3,15 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
+    android:layout_height="match_parent"
     android:orientation="vertical"
     tools:context=".MainActivity">
 
     <LinearLayout
+        android:id="@+id/menuLayout"
         android:layout_width="match_parent"
-        android:layout_height="72dp"
-        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
         android:background="@drawable/edge">
 
         <ImageButton
@@ -35,8 +36,8 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
-            android:onClick="onPopupButtonClick"
             android:background="@android:color/transparent"
+            android:onClick="onPopupButtonClick"
             android:padding="0dp"
             android:scaleType="fitCenter"
             android:src="@drawable/picture"
@@ -50,13 +51,68 @@
             android:layout_marginStart="16dp"
             android:layout_marginLeft="32dp"
             android:layout_marginTop="16dp"
-            android:onClick="onPopupButtonClick"
             android:background="@android:color/transparent"
+            android:onClick="onPopupButtonClick"
             android:padding="0dp"
             android:scaleType="fitCenter"
             android:src="@drawable/text1"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/colorButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:onClick="onPopupButtonClick"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/trashButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="48dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:onClick="onPopupButtonClick"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/trash"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageButton
+            android:id="@+id/saveButton"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:onClick="onPopupButtonClick"
+            android:padding="0dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/save"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id = "@+id/pictureLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="horizontal">
     </LinearLayout>
 
 </LinearLayout>
