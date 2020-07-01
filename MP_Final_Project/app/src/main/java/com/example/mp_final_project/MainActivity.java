@@ -249,6 +249,7 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.saveFile:
                         savePicture();
+                        break;
                     case R.id.changePicture:
                         if(img == null)
                         {
